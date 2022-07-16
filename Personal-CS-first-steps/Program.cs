@@ -109,11 +109,19 @@ namespace Personal_CS_first_steps
             Console.WriteLine( imInt.GetType());
             double imIntimDouble = (double) imInt;
             Console.WriteLine(imIntimDouble.GetType());
-            // string imString = (string)imIntimDouble; numvers to string not possible need concat
+            // string imString = (string)imIntimDouble; numvers to string not possible need concat (PS: use Converter)
             string imString = "" + imIntimDouble;
             Console.WriteLine(imString.GetType());
 
 
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //converters
+            Console.WriteLine(Convert.ToString(imInt));
+            string imString2 = Convert.ToString(imInt);
+            Console.WriteLine(imString2.GetType());
+            // ATTENTION to int need .ToInt32 !
 
         }
     }
