@@ -40,6 +40,25 @@ namespace Personal_CS_first_steps
             string text = "Ciao bello";
             Console.WriteLine(text);
 
+            //var lets decide the programm the types
+            //its possible to change in the programm life
+            var myVar = 1;
+            var myVar2 = "Var ";
+            var myVar3 = 1.2;
+            var myVar4 = 'A';
+
+            Console.WriteLine(myVar);
+            Console.WriteLine(myVar2);
+            Console.WriteLine(myVar3);
+            Console.WriteLine(myVar4);
+
+
+            //const don't lets decide the program
+            //its not possible to change 
+            const int myNumber = 12334324;
+            Console.WriteLine(myNumber);
+
+
 
         }
     }
