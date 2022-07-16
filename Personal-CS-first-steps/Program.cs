@@ -192,11 +192,28 @@ namespace Personal_CS_first_steps
             //so will write only differences
 
             //template literal of C#
-            string userData =   $"Username : {userName} { Environment.NewLine}" +
-                                $"Userage : {age} { Environment.NewLine}" +
-                                $"User future age : {calcFutureAge} {Environment.NewLine}";
+            string userData =   $"Username : {userName} \n" +
+                                $"Userage : {age} \n" +
+                                $"User future age : {calcFutureAge}\n";
             Console.WriteLine(userData);
 
+
+            /* if else are same as i know
+             * if(){}else{}
+             * 
+             * 
+             * while same i know
+             * while(){}
+             * 
+             * 
+             * for same i know only thing that change is declaration need apparantly only on creation of index
+             * for(int i; i < x; i++){}
+             * 
+             * 
+             * foreach same as JS "in", important is the type of varname (maybe use only "var" :P)
+             * foreach(int varname in arrayname){
+             * }
+             */
 
         }
     }
