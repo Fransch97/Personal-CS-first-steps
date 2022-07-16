@@ -140,6 +140,64 @@ namespace Personal_CS_first_steps
             int calcBirthYear = currentYear - age;
             int calcFutureAge = future - calcBirthYear;
             Console.WriteLine("In " + future + " u will be " + calcFutureAge);
+
+
+            //operators are the same i know 
+            /*
+             *  =	x = 5	x = 5	
+                +=	x += 3	x = x + 3	
+                -=	x -= 3	x = x - 3	
+                *=	x *= 3	x = x * 3	
+                /=	x /= 3	x = x / 3	
+                %=	x %= 3	x = x % 3	
+                &=	x &= 3	x = x & 3	
+                |=	x |= 3	x = x | 3	
+                ^=	x ^= 3	x = x ^ 3	
+                >>=	x >>= 3	x = x >> 3	
+                <<=	x <<= 3	x = x << 3
+
+
+                Comparison always the same
+                ==	Equal to	x == y	
+                !=	Not equal	x != y	
+                >	Greater than	x > y	
+                <	Less than	x < y	
+                >=	Greater than or equal to	x >= y	
+                <=	Less than or equal to	x <= y
+             
+                logic operators always the same
+                && 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10	
+                || 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4	
+                !	Logical not	Reverse the result, returns false if the result is true	!(x < 5 && x < 10)
+             */
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //math methods
+            Console.WriteLine(Math.Max(1, 3));//gives highes
+            Console.WriteLine(Math.Min(1, 3));//gives lowest
+            Console.WriteLine(Math.Min(1, 3));//gives lowest
+            Console.WriteLine(Math.Sqrt(12032039));//gives divi result
+            Console.WriteLine(Math.Abs(-12032039));//turns positiv
+            Console.WriteLine(Math.Round(9.23));
+            Console.WriteLine(Math.Round(9.93)); // rounds to nearest
+
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //string methods are like JS with differenece first letter is big {.Length, varName[0], .ToLower(), .ToUpper(),}
+            //so will write only differences
+
+            //template literal of C#
+            string userData =   $"Username : {userName} { Environment.NewLine}" +
+                                $"Userage : {age} { Environment.NewLine}" +
+                                $"User future age : {calcFutureAge} {Environment.NewLine}";
+            Console.WriteLine(userData);
+
+
         }
     }
 }
