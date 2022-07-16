@@ -109,7 +109,7 @@ namespace Personal_CS_first_steps
             Console.WriteLine( imInt.GetType());
             double imIntimDouble = (double) imInt;
             Console.WriteLine(imIntimDouble.GetType());
-            // string imString = (string)imIntimDouble; numvers to string not possible need concat (PS: use Converter)
+            // string imString = (string)imIntimDouble; numbers to string not possible need concat (PS: use Converter)
             string imString = "" + imIntimDouble;
             Console.WriteLine(imString.GetType());
 
@@ -123,6 +123,23 @@ namespace Personal_CS_first_steps
             Console.WriteLine(imString2.GetType());
             // ATTENTION to int need .ToInt32 !
 
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //inputs
+            string userName = Console.ReadLine();
+            Console.WriteLine(userName);
+            Console.WriteLine("insert name");
+            userName = Console.ReadLine();
+            Console.WriteLine("username: " + userName);
+            Console.WriteLine("Insert youre age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("User age: ");
+            int currentYear = 2022;
+            int future = 2030;
+            int calcBirthYear = currentYear - age;
+            int calcFutureAge = future - calcBirthYear;
+            Console.WriteLine("In " + future + " u will be " + calcFutureAge);
         }
     }
 }
