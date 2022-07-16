@@ -82,12 +82,36 @@ namespace Personal_CS_first_steps
             const int z = 1;
             Console.WriteLine(z + a + "lalala");
             Console.WriteLine("lalala" + z + a );
-            Console.WriteLine( z + a + b + c );
-            Console.WriteLine( z + a + b2 + c );
+            Console.WriteLine( z + a + b + c ); // had to use float 6-7 dec's
+            Console.WriteLine( z + a + b2 + c ); //had to use float
             Console.WriteLine( z + a + c );
             Console.WriteLine( z + a + c + b3);
 
 
+            /*
+             * think to create a table--------------------------------------------------------------------------->
+             * 
+                int	    4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
+                long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+                float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+                double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+                bool	1 bit	Stores true or false values
+                char	2 bytes	Stores a single character/letter, surrounded by single quotes
+                string	2 bytes per character	Stores a sequence of characters, surrounded by double quotes
+             */
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //changing types
+            // use head and logic...
+            double imDouble = 22.11;
+            int imInt = (int)imDouble;
+            Console.WriteLine( imInt.GetType());
+            double imIntimDouble = (double) imInt;
+            Console.WriteLine(imIntimDouble.GetType());
+            // string imString = (string)imIntimDouble; numvers to string not possible need concat
+            string imString = "" + imIntimDouble;
+            Console.WriteLine(imString.GetType());
 
 
 
