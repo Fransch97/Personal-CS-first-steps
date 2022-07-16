@@ -11,6 +11,9 @@ namespace Personal_CS_first_steps
         static void Main(string[] args)
         {
             Console.WriteLine("Funziona");
+            Console.Write("Sono Wirte. ");
+            Console.Write("Non creo nuove righe. ");
+            Console.Write("Quando mi usi occhio agli spazzi ;D. ");
         }
     }
 }
