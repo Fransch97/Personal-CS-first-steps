@@ -215,6 +215,19 @@ namespace Personal_CS_first_steps
              * }
              */
 
+            //arrays
+            string[] names = { "francesco", "rafael", "julian", "tobias", "daniel" };
+            int[] ages = { 25, 24, 25, 27, 29 };
+            double[] prices = { 22.33, 23.11, 50.21 };
+
+            //  override
+            names[0] = "Max";// { "Max", "rafael", "julian", "tobias", "daniel" }
+                             // .Length, .Sort like JS
+
+            // Create an array of four elements, and add values later
+            string[] cars = new string[4];
+            Console.WriteLine(cars);
+
         }
     }
 }
