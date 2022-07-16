@@ -59,6 +59,13 @@ namespace Personal_CS_first_steps
             Console.WriteLine(myNumber);
 
 
+            //concat tests
+            Console.WriteLine(text + myVar + " <=> Ciao bello +  1 ");
+            Console.WriteLine(myVar2 + text + " <=> Var +  Ciao bello ");
+            Console.WriteLine(myVar3 + number + " <=>  1.2 + 1  ");
+            Console.WriteLine(myVar4 + letter + " <=> 'A' + 'A'  "); // to check why
+
+
 
         }
     }
