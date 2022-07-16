@@ -60,10 +60,34 @@ namespace Personal_CS_first_steps
 
 
             //concat tests
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("concat tests");
             Console.WriteLine(text + myVar + " <=> Ciao bello +  1 ");
             Console.WriteLine(myVar2 + text + " <=> Var +  Ciao bello ");
             Console.WriteLine(myVar3 + number + " <=>  1.2 + 1  ");
             Console.WriteLine(myVar4 + letter + " <=> 'A' + 'A'  "); // to check why
+            Console.WriteLine(myVar4 + myNumber + " <=> 'A' + '12334324'  "); // to check why
+            Console.WriteLine(myVar4 + text + " <=> 'A' + 'Ciao bello'  "); // ok...XD
+
+            //Math tests
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("Math");
+            int a = 1;
+            double b = 12323232323333333333333333333333333333333333333333333333333.32323;
+            double b2 = 12783232732323989333333090865333333576578879039033333333333339090807333333333333780780780807333333333339.32323;
+            double b3 = 23.32;
+            int c = 1;
+            const int z = 1;
+            Console.WriteLine(z + a + "lalala");
+            Console.WriteLine("lalala" + z + a );
+            Console.WriteLine( z + a + b + c );
+            Console.WriteLine( z + a + b2 + c );
+            Console.WriteLine( z + a + c );
+            Console.WriteLine( z + a + c + b3);
+
+
 
 
 
